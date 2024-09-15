@@ -55,7 +55,7 @@ start_btn.addEventListener('click', function() {
         container_main.style.display = 'none';
         container_start.style.display = 'flex';
         container_start_h3.innerHTML = `<h3>Ви дали ${correct_answers_given} правильних відповідей із ${total_answers_given}. Точність - ${Math.round(correct_answers_given * 100 / total_answers_given)}%.</h3>`;
-    }, 10000);
+    }, 1000000);
 });
 
 for (let i = 0; i < answer_buttons.length; i += 1) {
